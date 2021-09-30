@@ -1,0 +1,18 @@
+.form-group {
+  margin-bottom: 10px;
+  text-align: left;
+  width: 200px;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: large;
+  text-align: center;
+  background-image: url(background.jpg);
+}
+div {
+    margin: 7px;
+}
+
+form {
+    margin-left: 44%;
+}

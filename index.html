@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="widh=device-widht, initial-scale=1.0">
+        <title>Форма аунтефикации</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,600;1,100;1,200;1,300;1,500&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <main>
+        <h1>Форма аунтефикации</h1>
+        <form method="POST" action="https://httpbin.org/post"  enctype="multipart/form-data" >
+
+
+            <div class="formgroup">
+                <label for="flo">Логин</label>
+                <input type="text" id="flo" name="login" placeholder="example" required>
+            </div>
+
+            <div class="formgroup">
+                <label for="flo">Пароль</label>
+                <input type="password" name="pass">
+            </div>
+            
+            <div class="formgroup">
+                <label for="zap">Запомните меня</label>
+                <input type="checkbox" name="zap" id="zap">
+            </div>
+
+            
+        </form>
+        <a href="feedback.html">
+            <button type="submit">Войти</button>
+        </a>
+        
+
+
+    </main>
+</body>
+</html>
